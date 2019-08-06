@@ -355,7 +355,7 @@ static void gst_peautogain_process(GstPeautogain* peautogain, GstBuffer* buffer)
     peautogain->range = (float)range;
   }
 
-  if (peautogain->momentary > peautogain->relative && peautogain->relative > -70 && !failed) {
+  if (peautogain->relative > -70 && !failed) {
     double shortterm, global, peak_L, peak_R;
 
     if (EBUR128_SUCCESS != ebur128_loudness_shortterm(peautogain->ebur_state, &shortterm)) {

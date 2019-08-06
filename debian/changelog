@@ -1,3 +1,10 @@
+pulseeffects (4.6.0-2-git20190519.1) UNRELEASED; urgency=medium
+
+  * Non-maintainer upload.
+  * Auto Gain - Correct gain even when momentary loudness is below relative threshold
+
+ -- Paul-Antoine Arras <parras@Skylake>  Tue, 06 Aug 2019 19:34:06 +0200
+
 pulseeffects (4.6.0-2-git20190519) unstable; urgency=medium
 
   *  Build from git 20190519 20:30 UTC+003 to test fix of
